@@ -1,0 +1,143 @@
+#indexbody{
+  background: linear-gradient(to left,  #66F6F1, #45A29E);
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px
+}
+#header{
+  text-align: center;
+  text-decoration: bold;
+  font-family: serif;
+}
+#mainbody{
+  margin: 0px;
+}
+main{
+  margin: 20px;
+}
+#Comp{
+  margin: 10px;
+  margin-left: 20px;
+  color:Black;
+  font-size:20px;
+}
+.navi{
+  font-family: serif;
+}
+.navi ul{
+  list-style-type: none;
+  background-color: #45A29E;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navi a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 0px;
+  background: linear-gradient(to  bottom,  #66F6F1, #45A29E);
+}
+.navi li{
+  float: right;
+  
+}
+.navi a:hover{
+  background-color: lightgray;
+}
+
+enterbtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.enterbtn button:hover{
+  background-color: black;
+  
+}
+.enterbtn a{
+  color: bold white;
+  background: linear-gradient(to top, #66F6F1,#45A29E);
+  padding: 20px;
+  
+}
+.enterbtn button{
+  align-items:center;
+  padding:20px;
+  background: linear-gradient(to top, #66F6F1,#45A29E);
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+    width: calc(100% / 2 - 20px);
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.box {
+  border: solid 2px black;
+  height:  400px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #45A29E;
+  
+}
+
+
+form input{
+  height: 45px;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:25px;
+  background-color: #C5C6C7;
+}
+form button{
+  margin-bottom: 10px;
+  align-items:center;
+  padding:10px;
+  background: linear-gradient(to top, #66F6F1,#45A29E);
+  border-radius: 5px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  margin-left:25px;
+  font-size: 30px;
+  font-family: serif;
+}
+.box .details{
+  justify-items: center;
+  font-family: serif;
+}
+.setbtn {
+  margin-top: 50px;
+}
+.setbtn .ontap{
+  width: 100%;
+  padding: 30px;
+}
+.sethead{
+  text-align: center;
+  font-family: serif;
+}
+
+
+
+
+
+
+
+

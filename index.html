@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <title>Log-In</title>
+</head>
+<body id="indexbody">
+  
+  <div class="box" id="boxholder">
+    <h1 id="header">Welcome</h1>
+    <h3 id="header">Log-In</h3>
+    <form class="details" id="Log-In">
+      <input type="text" placeholder="Username" required="">
+      <input type="Password" placeholder="Password" required=""
+        minlength="8"
+      >
+      <button class="enterbtn">Log-In</button>
+      <button><a href="main.html"
+        style="text-decoration:none;color:black;
+        font-size:30px;width:100%">Skip</a></button>
+    </form>
+  </div>  
+  
+  <script>
+        // Get the form element
+        const form = document.getElementById('Log-In');
+
+        // Add event listener to the form submission
+        form.addEventListener('submit', function(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+
+            // Redirect to the desired webpage (e.g., confirmation.html)
+            window.location.href = 'main.html';
+        });
+    </script>
+  
+  
+  
+      
+      
+      
+      
+      
+</body>
+</html>
