@@ -1,8 +1,8 @@
 #indexbody{
-  background: linear-gradient(to left,  #66F6F1, #45A29E);
+  background: linear-gradient(to bottom,  #66F6F1, #45A29E);
   display: flex;
-  height: 50vh;
-  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
   align-items: center;
   margin-top: 10px
 }
@@ -12,6 +12,7 @@
   font-family: serif;
 }
 #mainbody{
+  background: linear-gradient(to left,  #66F6F1, #45A29E);
   margin: 0px;
 }
 main{
@@ -20,7 +21,7 @@ main{
 #Comp{
   margin: 10px;
   margin-left: 20px;
-  color:Black;
+  color:#66F6F1;
   font-size:20px;
 }
 .navi{
@@ -28,7 +29,7 @@ main{
 }
 .navi ul{
   list-style-type: none;
-  background-color: #45A29E;
+  background-color: #1F2833;
   text-decoration: none;
   padding: 0px;
   margin: 0px;
@@ -82,20 +83,17 @@ enterbtn {
 .box {
   border: solid 2px black;
   height:  400px;
-  width: 500px;
+  width: 90%;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #45A29E;
-  
 }
-
-
 form input{
   height: 45px;
     width: 80%;
     outline: none;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid #66F6F1;
     padding-left: 15px;
     font-size: 16px;
     border-bottom-width: 2px;
@@ -122,22 +120,95 @@ form button{
   justify-items: center;
   font-family: serif;
 }
+.notes{
+  border: solid 2px black;
+  height:  200px;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 0px;
+  background-color: #45A29E;
+}
+.inbox{
+  margin-top: 0px;
+  background-color: wheat;
+  justify-content: center;
+}
+#head{
+  background: linear-gradient(to top, #66F6F1,#45A29E);
+  text-align: center;
+}
 .setbtn {
   margin-top: 50px;
+  
 }
 .setbtn .ontap{
   width: 100%;
   padding: 30px;
+  background: linear-gradient(to top, #66F6F1,#45A29E);
+  font-family: serif;
 }
+
 .sethead{
   text-align: center;
   font-family: serif;
 }
+.menuholder{
+  display: flex;
+  justify-content: space-evenly;
+}
+.holder{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  background: linear-gradient(to top, #66F6F1,#45A29E);
+}
+.holder .pic{
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 70px;
+  margin: 3px;
+  background-color: wheat;
+}
+.holder .name{
+  font-family: serif;
+  padding: 0px;
+  text-align: center;
+  margin-top: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.holder .pic img{
+  width: 100%;
+  height:  70px;
+  border-radius: 8px;
+}
 
 
+.capsules{
+  margin: 10px;
+  margin-left: 20px;
+  display: flex;
+}
 
-
-
-
-
-
+.capsules .capsule{
+  border: 3px solid black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+}
+.capsules .capsule img{
+  width: 150px;
+  height: 150px;
+  border-radius: 45px;
+}
+.cnames{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px; 
+  margin-top: 5px;
+  font-family: serif;
+}
